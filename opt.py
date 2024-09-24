@@ -2,6 +2,7 @@ import time
 
 import torch
 import torch.nn as nn
+import habana_frameworks.torch.gpu_migration
 
 from quant import *
 from sparsegpt import *
